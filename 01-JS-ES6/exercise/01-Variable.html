@@ -6,6 +6,19 @@
     <title>let 與 const</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      console.log(a);
+      if (true) {
+        var a = 123;
+        const b = { name: "Mike" };
+        const c = [];
+        b.age = 12;
+        c.push("Anna");
+        console.log(b);
+        console.log(c);
+      }
+      console.log(a);
+      console.log(b);
+    </script>
   </body>
 </html>
